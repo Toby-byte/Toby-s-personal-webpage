@@ -1,5 +1,10 @@
-// alert("Tobias er en sej fyr");
+let firstName;
+let telefon;
 
-let name; 
+document.getElementById("minKnap").onclick = function() {
+    firstName = document.getElementById("fname").value;
+    document.getElementById("fnameParagraph").innerHTML = firstName;
 
-document.getElementById("")
+    telefon = document.getElementById("tlf").value;
+    document.getElementById("tlfParagraph").innerHTML = telefon;
+}
