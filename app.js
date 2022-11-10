@@ -1,3 +1,4 @@
+// server kontakt kode
 let firstName;
 let telefon;
 let besked;
